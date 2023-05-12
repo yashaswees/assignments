@@ -519,7 +519,6 @@ sub{
 }
 .footer1-1{
     display: flex;
-    width:73%;
     padding-top:50px;
 }
 .info ul li:first-child{
@@ -973,6 +972,16 @@ padding-right:22px;
  }
  .grey4{
     padding-left: 70px;
+ }
+ .resources{
+    margin-top: 50px;
+    margin-left: 70px;
+ }
+ .touch{
+    margin-top:50px;
+ }
+ .socials{
+    margin-left:70px;
  }
 }
 /* 480px
