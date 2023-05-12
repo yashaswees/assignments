@@ -31,16 +31,17 @@ img{
     font-weight:700;
     font-size:24px;
     padding-top: 30px;
-    margin-left: 195px;
+    margin-left: 105px;
 }
 .flexBox{
     display: flex;
 }
 .rightNav{
-    margin-left: 10%;
+    margin-left: 235px;
     display: flex;
 }
 .navBar{
+    display: flex;
     padding-top:33px;
     margin-left: 76px;  
 }
@@ -341,6 +342,9 @@ sub{
     width:327px;
     text-align:center;
 }
+.price{
+    margin-top:35px;
+}
 .list1{
     list-style: none;
     font-size:14px;
@@ -442,7 +446,6 @@ sub{
     top:479px;
     left:281px;
     background-color: white;
-
 }
 .book{
     display:flex;
@@ -600,7 +603,7 @@ sub{
 .grey4{
     display:flex;
     background-color: #FAFAFA;
-    margin-left: 195px;
+    padding-left: 195px;
     color: #737373;
     font-size:14px;
     font-weight: 600;
@@ -613,3 +616,136 @@ sub{
 .socials >* {
 padding-right:22px;
 }
+
+/* 1200px */
+@media(max-width:1200px)
+{
+    .brandName{
+        margin-left:100px;    
+    }
+    .menu{
+        display:none;
+    }
+    .nav {
+        display: flex;
+    }
+    .rightNav{
+        margin-left: 10px;
+    }
+    .part2-2{
+        margin-left:50px;
+    }
+    .part2-3{
+        margin-left:50px;
+    }
+    .testimonials{
+        padding-top:50px;
+    }
+    .cards{
+        margin-bottom:96px;
+    }
+    .form{
+        margin-left:70px
+    }
+    .cardText{
+        margin-left: 50px;
+    }
+    .priceCards{
+        margin-left:115px;
+    }
+    .darkTopic{
+        width:350px;
+    }
+    .darkRight{
+        margin-left:200px;
+    }
+    .form1{
+        left:170px;
+    }
+    .contactus{
+        margin-left:370px;
+    }
+    .info ul li{
+    margin-left:190px;
+    }
+    .legal ul li{
+        width:100px;
+    }
+    .features ul li{
+        width:150px;
+    }
+    .resources ul li{
+        width:150px;
+    }
+    .footer1{
+        margin-left:00px;
+    }
+    .grey4{
+        padding-left:190px;
+    }
+    .greyText{
+        width:450px;
+    }
+    .socials{
+        margin-left:307px;
+    }
+}
+/* 480px
+@media(min-width:480px)
+{
+    .menu{
+        margin-left: 30px;
+        margin-top:20px;
+    }
+    .brandName{
+        margin-left:100px;
+    }
+    .navBar{
+        margin-left: 0px;
+        display:none;
+    }
+    .rightNav{
+        margin-left:0px;
+    }
+    .b1{
+        display:none;
+    }
+    .logIn{
+        margin-left:180px ;
+    }
+    .bgText{
+        margin-top: 70px;
+    }
+    .bgTitle{
+        font-size:24px;
+        line-height:30px;
+    }
+    .bgSubtitle{
+        text-align:center;
+        margin-left:0px;
+        width:250px
+    }
+    .bgButton1{
+        margin-top:10px;
+    }
+    .overlap{
+        flex-direction:column;
+        marhon:0 auto;
+    }
+    .overlap1{
+        margin-top: 80px;
+    }
+    .overlap2{
+        margin-top:20px;
+        margin-left:0px
+    }
+    .overlap3{
+        margin-top:20px;
+        margin-left:0px;
+    }
+    .part2{
+        flex-direction: column;
+        margin-top:320px
+    }
+} */
+
