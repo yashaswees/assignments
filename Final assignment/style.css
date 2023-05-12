@@ -823,9 +823,6 @@ padding-right:22px;
     font-size:30px;
     line-height:1.5;
  }
- .bgButton1{
-    width:300px
- }
  .bgSubtitle{
     margin-left:80px;
  }
@@ -984,15 +981,25 @@ padding-right:22px;
     margin-left:70px;
  }
 }
-/* 480px
-@media(min-width:480px)
+/* 480px */
+@media(max-width:480px)
 {
     .menu{
-        margin-left: 30px;
+        width:30px;
+        margin-left: 0px;
         margin-top:20px;
     }
     .brandName{
         margin-left:100px;
+        font-size: 20px;
+    }
+    .b1{
+        width:114px;
+        padding: 10px 5px;
+        font-size:13px;
+        margin-left:140px;
+        font-weight: 400;
+
     }
     .navBar{
         margin-left: 0px;
@@ -1000,9 +1007,6 @@ padding-right:22px;
     }
     .rightNav{
         margin-left:0px;
-    }
-    .b1{
-        display:none;
     }
     .logIn{
         margin-left:180px ;
@@ -1019,12 +1023,15 @@ padding-right:22px;
         margin-left:0px;
         width:250px
     }
+    .bgButton{
+        flex-direction: column;
+    }
     .bgButton1{
         margin-top:10px;
     }
     .overlap{
         flex-direction:column;
-        marhon:0 auto;
+        margin:50px auto;
     }
     .overlap1{
         margin-top: 80px;
@@ -1039,7 +1046,158 @@ padding-right:22px;
     }
     .part2{
         flex-direction: column;
-        margin-top:320px
+        margin-top:400px ;
+        
     }
-} */
+    .part2-1{
+        margin-left:100px;
+        margin-bottom:40px;
+    }
+    .part2-2{
+        margin-bottom:40px;
+    }
+    .testimonials{
+        width:50%;
+        margin-left:auto;
+    }
+    .cards{
+        margin-left:auto;
+        flex-direction: column;
+    }
+    .card1{
+        margin-bottom:20px;
+    }
+    .card2{
+        margin-bottom: 20px;
+    }
+    .cardText{
+        width:250px;
+    }
+    cards{
+        margin-bottom:0px;
+    }
+    .logos{
+        flex-wrap: wrap;
+        margin-top: 0px;
+        gap:10px;
+        margin-left:50px;
+    }
+    .logoImg4{
+        margin-top:20px;
+        margin-left: 40px;
+        width:60px;
+    }
+    .logoImg5{
+        margin-top:17px;
+    }
+    .logoImg6{
+        margin-top:10px;
+    }
+    .logoImg1{
+        margin-top:15px;
+    }
+    .logoImg2{
+        margin-top:5px;
+    }
+    .logoImg3{
+        margin-top:0px;
+    }
+    .gradientText{
+        width:315px;
+        margin-left: 0px;
+        padding:15px;
+        padding-right: 0px;
+    }
+    .subscribe{
+        font-size:18px;
+    }
+    
+    .form{
+        height:30px;
+        width:200px;
+        padding:20px;
+    }
+    .formSub{
+        height:43.5px;
+    }
+    .priceCards{
+        margin-top:30px;
+    }
+    .priceCard2{
+        margin-top:20px ;
+        margin-left:100px;
+    }
+    .priceCard3{
+        margin-top:20px;
+    }
+    .darkTopic{
+        font-size:22px;
+        width:250px;
+        line-height: 1.5;
+    }
+    .darkText{
+        width:200px;
+    }
+    .form1{
+        left:0px;
+        /* margin-bottom:20px; */
+    }
+    .familypic{
+        width:200px;
+    }
+    .book{
+        margin-left:20px;
+    }
+    .bookTitle{
+        font-size:17px;
+        font-weight:500;
+    }
+    .bookText{
+        width:200px;
+    }
+    .bookForm{
+        height:40px;
+        width:250px;
+    }
+    .fam{
+        width:250px;
+        margin-left: 0px;
+    }
+    .title2{
+        margin-top: 0px;
+    }
+    .aboveFooter{
+        margin-top:200px;
+        margin-left:10px;
+    }
+    .title2{
+        font-weight: 500;
+    }
+    .contactus{
+        margin-right:20px;
+    }
+    .legal{
+        margin-left:120px;
+    }
+    .features{
+        margin-left:70px;
+        margin-top:20px;
+    }
+    .resources{
+        margin-top: 20px;
+    }
+    .socials{
+        display: flex;
+        margin-left:0px;
+    }
+    .greyText{
+        width:300px;
+    }
+    .grey4{
+        padding-left: 30px;
+    }
+    .twitter{
+        padding:0px;
+    }
+} 
 
