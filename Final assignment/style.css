@@ -68,6 +68,10 @@ img{
     margin-top:19px;
     font-size:14px;
 }
+.b1:hover{
+    background-color: #3a96cc;
+    cursor: pointer;
+}
 .bgText{
     width: 48%;
     margin: 167px auto 0px;
@@ -621,6 +625,7 @@ sub{
 padding-right:22px;
 }
 .menu{
+    width:40px;
     display: none;
 }
 
@@ -706,9 +711,6 @@ padding-right:22px;
 
     .logIn{
         margin-left:55px;
-    }
-    .rightNav{
-
     }
     .part2{
         margin-top: 150px;
@@ -959,11 +961,6 @@ padding-right:22px;
     flex-wrap: wrap;
     margin-right: 50px;
 }
-.para1{
-}
-.subTopic1{
-
-}
  .top{
     width:150px;
  }
@@ -1201,3 +1198,11 @@ padding-right:22px;
     }
 } 
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .menu {
+      display: block;
+    }
+  
+  }
+  
