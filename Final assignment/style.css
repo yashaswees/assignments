@@ -111,10 +111,11 @@ img{
 .overlap1{
     background-color: white;
     color:black;
-    padding: 35px 40px 35px 40px;   
+    padding: 35px 40px ;   
     box-shadow: 0px 13px 19px 0px #00000012;
 }
 .top{
+    margin:10px 0px;
     font-weight:700;
     font-size:24px;
 }
@@ -177,7 +178,7 @@ img{
 }
 .testimonials{
     width: 33%;
-    margin-left:485px;
+    margin:0 auto;
     text-align:center;
     padding-top: 112px;
 }
@@ -609,6 +610,9 @@ sub{
     font-weight: 600;
     padding:25px;
 }
+.greyText{
+    margin-left:170px;
+}
 .socials{
     margin-left:507.5px;
     
@@ -689,6 +693,106 @@ padding-right:22px;
     .socials{
         margin-left:307px;
     }
+}
+/* 991 PX */
+@media(max-width:991px){
+    .rightNav{
+        margin-left:0px;
+        padding-left:0px;
+    }
+    .logIn{
+        margin-left:65px;
+    }
+    .part2{
+        margin-top: 150px;
+    }
+    .part2-1{
+        margin-left: 70px;
+    }
+   .cardText{
+    margin: 30px 30px;
+    width:150px;
+   }
+   .cards{
+    margin:40px auto 100px;
+   }
+   .logoImg1{
+    width:70px;
+   }
+   .logoImg2{
+    width:70px;
+   }
+   .logoImg3{
+    width:70px;
+   }
+   .logoImg4{
+    width:70px;
+   }
+   .logoImg5{
+    width:70px;
+   }
+   .logoImg6{
+    width:70px;
+   }
+   .gradientText{
+    display :block;
+    margin-left:50px;
+   }
+   .subscribe{
+    font-size:20px;
+    width:400px;
+    margin-bottom: 20px;
+   }
+   .form0{
+    display: flex;
+   }
+   .form{
+    margin-left: 0px;
+   }
+   .priceCards{
+    margin-left:3px;
+   }
+   list1 li{
+    margin-bottom: 20px;
+   }
+   .subtopic{
+    margin-top: 20px;
+   }
+   .zero{
+    margin-top: 25px;
+   }
+   .darkTopic{
+    margin-top: 70px;
+    margin-left:100px;
+
+   }
+   .darkText{
+    margin-left:100px;
+   }
+   .darkRight{
+    margin-left:100px;
+   }
+   .form1{
+    left:55px
+   }
+   .aboveFooter{
+    margin-left:70px;
+   }
+   .info ul li{
+    margin-left: 70px;
+   }
+   .grey4{
+    padding-left: 70px;
+
+   }
+   .greyText{
+    margin-left:0px;
+   }
+   .socials{
+    margin-left:280px;
+   }
+
+  
 }
 /* 480px
 @media(min-width:480px)
