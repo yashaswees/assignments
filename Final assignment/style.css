@@ -34,6 +34,7 @@ img{
     margin-left: 105px;
 }
 .flexBox{
+    margin:0 32px;
     display: flex;
 }
 .rightNav{
@@ -88,7 +89,6 @@ img{
 }
 .bgButton1{
     height: 52px;
-    width: 185px;
     border-radius: 37px;
     padding: 15px 36px 15px 36px;   
     margin:3px;
@@ -460,7 +460,6 @@ sub{
     height:50px;
     padding: 11px 0px 11px 21px;
     border-radius: 5px;
-    margin-top: 10px;
     width:507px;
 }
 .fam{
@@ -538,7 +537,6 @@ sub{
     color: #737373;
 }
 .legal{
-    width:100px;
     margin-left:63px;
 }
 .legal ul li:first-child{
@@ -547,6 +545,7 @@ sub{
     font-weight: 700;
 }
 .legal ul li{
+    width:107px;
     list-style:none;
     margin-bottom: 20px;
     font-size:14px;
@@ -554,7 +553,6 @@ sub{
     color: #737373;
 }
 .features{
-    width:146px;
     margin-left:82px;
 }
 .features ul li:first-child{
@@ -563,6 +561,7 @@ sub{
     font-weight: 700;
 }
 .features ul li{
+    width:161px;
     list-style:none;
     margin-bottom: 20px;
     font-size:14px;
@@ -611,7 +610,9 @@ sub{
     padding:25px;
 }
 .greyText{
-    margin-left:170px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 170px;
 }
 .socials{
     margin-left:507.5px;
@@ -619,6 +620,9 @@ sub{
 }
 .socials >* {
 padding-right:22px;
+}
+.menu{
+    display: none;
 }
 
 /* 1200px */
@@ -685,10 +689,11 @@ padding-right:22px;
         margin-left:00px;
     }
     .grey4{
-        padding-left:190px;
+        padding-left:90px;
     }
     .greyText{
         width:450px;
+        margin-left: 0px;
     }
     .socials{
         margin-left:307px;
@@ -696,12 +701,15 @@ padding-right:22px;
 }
 /* 991 PX */
 @media(max-width:991px){
-    .rightNav{
-        margin-left:0px;
-        padding-left:0px;
+    .brandName{
+        margin-left:80px;
     }
+
     .logIn{
-        margin-left:65px;
+        margin-left:55px;
+    }
+    .rightNav{
+
     }
     .part2{
         margin-top: 150px;
@@ -791,8 +799,181 @@ padding-right:22px;
    .socials{
     margin-left:280px;
    }
+}
+@media(max-width:768px)
+{
+    .menu{
+        width:40px;
+        display:block;
+        margin-left:0px;
+        margin-top:20px;
+    }
+ .brandName{
+    margin-left: 200px;
+ }
+ .navBar{
+    display: none;
+ }
+ .rightNav{
+    margin-left:150px;
+ }
+ .b1{
+    margin-left:50px;
+ }
+ .bgTitle{
+    font-size:30px;
+    line-height:1.5;
+ }
+ .bgButton1{
+    width:300px
+ }
+ .bgSubtitle{
+    margin-left:80px;
+ }
+ .logIn{
+    display: none;
+ }
+ .bgButton{
+    display:flex;
+    gap:10px;
+ }
+ .overlap{
+    margin-left:6px;
+ }
+ .part2{
+    margin:50px auto;
+ }
+.part2-1{
+    width:150px;
+    margin-left: 20px;
+    text-align: left;
+}
+.part2-2{
+    width:150px;
+    margin-left: 100px;
+    text-align: left;
+}
+.part2-3{
+    margin-top:10px;
+    width:150px;
+    margin-left:100px;
+    text-align: left;
+}
+.image1{
+    margin-left: 25px;
+    width:50px;
+}
+.image2{
+    margin-left: 50px;
+    height:50px;
+}
+.image3{
+    margin-left:45px;
+}
+.test0{
+    width:300px
+}
+.cards{
+    margin-left:40px
+}
+.card1{
+    margin-left:10px;
+}
+.card2{
+    margin-left:10px;
+}
+.card3{
+    margin-left:10px;
+}
+.logoImg1{
+    width:60px;
+}
+.logoImg2{
+    width:60px;
+    margin-left:40px;
+}
+.logoImg3{
+    margin-left:40px;
+    width:60px;
+}
+.logoImg4{
+    margin-left:40px;
+    width:60px;
+}
+.cards{
+    margin-bottom:90px;
+}
+.logoImg5{
+    margin-left:50px;
+    width:50px;
+}
+.logoImg6{
+    margin-left:30px;
+    width:50px;
+}
+.form{
+    width:250px;
+    padding:20px;
+}
+.priceCards{
+    flex-direction: column;
+    justify-content: center;
+}
+.priceCard1{
+    margin-left: 50px;
+}
+.priceCard2{
+    margin-left:300px;
+}
+.priceCard3{
+    margin-top:0px;
+    margin-left: 50px;
+}
+.darkTopic{
+    margin-left:50px;
+    font-size:35px;
+}
+.darkText{
+    margin-left:50px;
+}
+.bookForm{
+    width:350px;
+    margin-right: 50px;
+}
+.fam{
+    margin-left:0px;
+    width:350px;
+}
+.form1{
+   left:22px;
+}
+.bookText{
+    width:350px;
+    margin-right:0px;
+}
+.contactus{
+    width: 200px;
+    margin-left:90px;
+}
 
-  
+.aboveFooter{
+    margin-top:350px;
+}
+.footer1-1{
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.para1{
+}
+.subTopic1{
+
+}
+ .top{
+    width:150px;
+ }
+ .grey4{
+    padding-left: 70px;
+ }
 }
 /* 480px
 @media(min-width:480px)
